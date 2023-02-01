@@ -21,6 +21,13 @@
                               $"i'll be at your house 30 minutes before, \n" +
                               $"first Down make sure you have the {snackName} \n" +
                               $"and the {drinkName} ready. See you Game Day!");
+
+            Console.WriteLine(methods.Add(1, 4));
+            Console.WriteLine(methods.Subtract(1, 8));
+            Console.WriteLine(methods.Multiply(8, 10));
+            Console.WriteLine(methods.Divide(5,10));
+            Console.WriteLine(methods.Mod(10, 55));
+
         }
     }
 }
